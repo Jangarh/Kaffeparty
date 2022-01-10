@@ -1,0 +1,99 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+    /*background-image: url('../images/pattern4.jpg');*/
+    background-color: #f0f0E1;
+    background-repeat: repeat;
+  }
+
+  .bg-primary {
+    background-color: #443a3a !important;
+  }
+  
+  /* cards */
+  
+  .card-footer {
+    background: transparent;
+    border-top: 0px;
+  }
+
+  .img-size {
+    max-height: 300px;
+  }
+
+  .party-img {
+    max-height: 250px;
+  }
+
+  .btn-primary {
+    background-color: #756161;
+    border-color: #756161;
+  }
+  
+  .btn-primary:hover {
+    background-color: #968484;
+    border-color: #968484;
+  }
+
+  .navbar-pos {
+    padding-left: 408px;
+  }
+
+  .inline-li {
+    display: inline;
+    padding: auto;
+}
+
+.ctc-card-height {
+  height: 300px;
+}
+
+.btn-success1 {
+  background-color: #968484 !important;
+  border-color: #968484 !important;
+}
+
+.btn-success1:hover {
+  background-color: #968484 !important;
+  border-color: #968484 !important;
+}
+
+.btn-success1:focus {
+  background-color: #968484 !important;
+  border-color: #968484 !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 25rem;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+ 
+  .welcome-carousel-image1{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/coffee-image1.jpg');
+  }
+
+  .welcome-carousel-image2{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/coffee-image4.jpg');
+  }
+
+  .welcome-carousel-image3{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/coffee-machine1.jfif');
+  }
+
